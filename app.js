@@ -20,8 +20,10 @@
     proposal: ["tag-proposal", "Proposal"],
     priority: ["tag-campaign", "Next-term priority"]
   };
+  // Source/status tags are turned off. Set SHOW_TAGS to true to bring them back.
+  var SHOW_TAGS = false;
   function tag(basis) {
-    var b = BASIS[basis]; return b ? '<span class="tag ' + b[0] + '">' + b[1] + "</span>" : "";
+    var b = BASIS[basis]; return SHOW_TAGS && b ? '<span class="tag ' + b[0] + '">' + b[1] + "</span>" : "";
   }
   function setup(text) { return text ? '<p class="setup" data-setup>' + esc(text) + "</p>" : ""; }
   function link(l) {
@@ -190,7 +192,7 @@
   });
 
   /* ---------- sources ---------- */
-  $("source-list").innerHTML = S.sources.map(function (s) {
+  if ($("source-list")) $("source-list").innerHTML = S.sources.map(function (s) {
     return "<li>" + link(s) + '<span class="kind">' + esc(s.kind) + "</span></li>";
   }).join("");
 
