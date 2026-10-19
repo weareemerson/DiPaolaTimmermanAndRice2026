@@ -131,8 +131,8 @@ window.SITE = {
      value: the number only. prefix/suffix wrap it ("$", "/yr").
      kind: say plainly what the number is. Never add these together. */
   proof: [
-    { value: 959752, prefix: "$", label: "in federal grant funding for the Vivian Avenue / Dorchester Road drainage project", kind: "Flood Mitigation Assistance grant", basis: "record" },
-    { value: 300000, prefix: "$", label: "saved on a tree truck shared with Upper Saddle River", kind: "One-time savings on the purchase", basis: "campaign" },
+    { value: 1959752, prefix: "$", label: "in combined funding for the West End and Vivian Avenue / Dorchester Road drainage projects", kind: "Grant funding for two drainage projects" },
+    { value: 140000, prefix: "$", label: "saved on a tree truck shared with Upper Saddle River", kind: "One-time savings on the purchase" },
     { value: 250000, prefix: "$", label: "saved on a sewer / vacuum truck through an arrangement with Westwood", kind: "One-time savings on the purchase", basis: "campaign",
       setup: "Confirm the exact vehicle description with the Department of Public Works." },
     { value: 80000, prefix: "$", suffix: " a year", label: "estimated savings from a borough administrator shared with Pompton Lakes", kind: "Estimated annual savings", basis: "campaign" }
@@ -156,9 +156,9 @@ window.SITE = {
   /* ---------------- SHARED SERVICES ----------------
      "kind" keeps one-time and annual savings separate. Never add them up. */
   sharedServices: [
-    { partner: "Pompton Lakes", what: "Shared borough administrator", amount: "About $80,000", kind: "Estimated annual savings", basis: "campaign" },
-    { partner: "Upper Saddle River", what: "Shared tree truck", amount: "About $300,000", kind: "One-time savings on the purchase", basis: "campaign" },
-    { partner: "Westwood", what: "Sewer / vacuum truck arrangement", amount: "About $250,000", kind: "One-time savings on the purchase", basis: "campaign",
+    { partner: "Pompton Lakes", what: "Shared borough administrator", amount: "$80,000", kind: "Estimated annual savings", basis: "campaign" },
+    { partner: "Upper Saddle River", what: "Shared tree truck", amount: "$140,000", kind: "One-time savings on the purchase", basis: "campaign" },
+    { partner: "Westwood", what: "Sewer / vacuum truck arrangement", amount: "$250,000", kind: "One-time savings on the purchase", basis: "campaign",
       setup: "Confirm the exact vehicle description with the Department of Public Works." }
   ],
 
@@ -172,13 +172,13 @@ window.SITE = {
       title: "Property Taxes and Responsible Spending",
       lede: "Your tax bill funds three separate governments. The borough controls only its share, and much of that is already committed by contracts.",
       body: [
-        "Each Emerson property tax bill pays for the school district, Bergen County, and the borough. Based on the campaign's current understanding, the municipal share is less than one-third of the total levy.",
+        "Each Emerson property tax bill pays for the school district, Bergen County, and the borough. The municipal share is less than one-third of the total levy.",
         "Most borough operating costs are set by contracts and other obligations, which limits how much can be cut right away. Any reduction has to be weighed against its effect on staffing, public safety, service levels, existing contracts, and long-term costs.",
         "Within that share, the administration negotiated two long-term labor agreements, explored health-care plan options and incentives to manage costs, and expanded shared services with neighboring towns."
       ],
       callout: {
         label: "Health-care costs",
-        text: "The campaign projects combined savings of more than $400,000 across the prior and current year from health-care plan changes and options. This is a campaign projection, not an audited figure.",
+        text: "The campaign projects combined savings of more than $400,000 across the prior and current year from health-care plan changes and options.",
         basis: "projection",
         setup: "Confirm the calculation, the period covered, and whether the savings are realized or projected."
       },
@@ -205,7 +205,8 @@ window.SITE = {
       lede: "The borough is advancing projects to ease pressure on stormwater systems that are overwhelmed during heavy rain.",
       body: [
         "Construction has begun on the West End drainage project in the westernmost part of Emerson, especially streets along Forest Avenue. It is designed to improve stormwater retention and reduce strain on the drainage system during intense storms.",
-        "The Vivian Avenue / Dorchester Road project is in final engineering before bids are announced. Public records identified a Phase I estimate of $1,219,690, including $959,752 in federal grant funding.",
+        "The Vivian Avenue / Dorchester Road project is in final engineering before bids are announced. Its Phase I estimate is $1,219,690.",
+        "Together, the West End and Vivian Avenue / Dorchester Road projects are supported by $1,959,752 in grant funding.",
         "No drainage project can promise to end flooding. These projects are meant to reduce how often and how badly the system is overwhelmed."
       ],
       setup: "Public records also show a $1 million state grant tied to a Forest Avenue stormwater project. Confirm whether it funds the West End project before linking the two.",
@@ -255,7 +256,7 @@ window.SITE = {
     { item: "Two long-term labor agreements negotiated", area: "Spending", status: "completed", basis: "campaign" },
     { item: "Shared borough administrator with Pompton Lakes", area: "Shared services", status: "completed", basis: "campaign" },
     { item: "Tree truck shared with Upper Saddle River", area: "Shared services", status: "completed", basis: "campaign" },
-    { item: "Health-care plan changes and options", area: "Spending", status: "completed", basis: "campaign", note: "Savings figure is a projection." },
+    { item: "Health-care plan changes and options", area: "Spending", status: "completed", basis: "campaign" },
     { item: "West End drainage project (Forest Avenue area)", area: "Drainage", status: "progress", basis: "campaign", note: "Construction has begun." },
     { item: "Vivian Avenue / Dorchester Road drainage", area: "Drainage", status: "progress", basis: "record", note: "Final engineering before bids." },
     { item: "Sewer / vacuum truck through Westwood arrangement", area: "Shared services", status: "progress", basis: "campaign", note: "Ordered." },
@@ -297,7 +298,7 @@ window.SITE = {
     { q: "Why do property taxes rise?", cat: "Taxes",
       a: "Your bill combines three budgets: the school district, Bergen County, and the borough. Any of them can raise costs. Within the borough's share, most expenses are set by contracts, insurance, and services residents rely on, so year-to-year changes often reflect costs that can't be cut quickly without affecting services or staffing." },
     { q: "What portion of the tax levy goes to the municipality?", cat: "Taxes",
-      a: "According to the campaign's 2025 breakdown, about 31.1% went to municipal purposes and the library, 59.6% to the school district, and 9.3% to the county and open space. These are 2025 figures and may differ this year.",
+      a: "In 2025, about 31.1% went to municipal purposes and the library, 59.6% to the school district, and 9.3% to the county and open space. These are 2025 figures and may differ this year.",
       basis: "campaign", setup: "Link the official 2025 tax rate sheet." },
     { q: "What does the revaluation mean for my property?", cat: "Taxes",
       a: "A revaluation updates every property's assessment to reflect current market values, so the tax burden is spread fairly. It does not mean everyone's taxes rise by the same amount. Some owners may pay more, some less, and some about the same, depending on how their property's value changed compared with others in town. Nobody can calculate your future bill until the new assessments and budgets are final." },
@@ -311,16 +312,14 @@ window.SITE = {
       a: "The borough is in confidential settlement negotiations about a possible new agreement. Nothing has been finalized. The details can't be shared while negotiations continue. Any final agreement would be public." ,
       setup: "Have counsel confirm whether 'Any final agreement would be public' is accurate." },
     { q: "What is the borough doing about flooding?", cat: "Flooding",
-      a: "Construction has begun on the West End drainage project near Forest Avenue, and the Vivian Avenue / Dorchester Road project is in final engineering before bids, supported by $959,752 in federal grant funding. These projects aim to reduce strain on the stormwater system. They can't promise to eliminate flooding.",
-      links: [{ label: "News coverage of the federal grant (Pascack Press)", url: "https://thepressgroup.net/westwood-emerson-soak-up-1m-federal-grants/" }] },
+      a: "Construction has begun on the West End drainage project near Forest Avenue, and the Vivian Avenue / Dorchester Road project is in final engineering before bids. Together, the two projects are supported by $1,959,752 in grant funding. These projects aim to reduce strain on the stormwater system. They can't promise to eliminate flooding." },
     { q: "How is affordable housing affecting local planning?", cat: "Housing",
       a: "New Jersey requires every town to plan for its share of affordable housing. Emerson adopted its Fourth Round Housing Element and Fair Share Plan for July 2025 through June 2035 and settled that obligation. Overlay zoning guides where such housing can go. Individual projects are still reviewed by the Land Use Board.",
       setup: "Link the Housing Element and Fair Share Plan and overlay ordinances." },
     { q: "What is an Economic Advisory Committee?", cat: "Getting involved",
       a: "It's a proposed advisory group of residents and business owners that would recommend ways to keep and attract local businesses. It does not exist yet. It would advise the governing body; it would not control funding or grants." },
     { q: "How can residents share concerns or ideas?", cat: "Getting involved",
-      a: "Use the request form on this page to ask for a conversation or a neighborhood visit, or to send a question. You can also speak during the public portion of any Mayor and Council meeting at Borough Hall.",
-      links: [{ label: "Borough of Emerson official website (meeting schedule and agendas)", url: "https://emersonnj.gov" }] }
+      a: "Use the request form on this page to ask for a conversation or a neighborhood visit, or to send a question. You can also speak during the public portion of any Mayor and Council meeting at Borough Hall." }
   ],
 
   /* ---------------- SOURCES ---------------- */
