@@ -91,7 +91,7 @@ window.SITE = {
       photo: "dipaola",
       alt: "Mayor Danielle DiPaola standing beside an American flag in the Emerson council chambers",
       highlights: [
-        { lead: "Lifelong Emerson Resident", text: "Danielle has called Emerson home her entire life and has served the Borough in various capacities for more than 15 years." },
+        { lead: "Lifelong Emerson Resident", text: "Danielle has called Emerson home her entire life and has served the Borough in various capacities for more than 19 years." },
         { lead: "Mayor of Emerson", text: "Now serving her second term as mayor, Danielle brings extensive experience in local government and a longstanding commitment to the community she calls home." },
         { lead: "Committed to Emerson’s Future", text: "With deep roots in the Borough, Danielle continues working to address local priorities, support residents, and guide Emerson’s continued growth." }
       ]
@@ -119,7 +119,7 @@ window.SITE = {
       photo: "rice",
       alt: "Council President Ashley Rice standing beside an American flag",
       highlights: [
-        { lead: "Dedicated to Service", text: "Ashley’s commitment to helping others extends beyond municipal government to her career as a public educator and home health aide." },
+        { lead: "Dedicated to Service", text: "Ashley’s commitment to helping others extends beyond municipal government to her career as a public educator." },
         { lead: "Council President", text: "Serving her first full term on the Emerson Borough Council after previously completing an unexpired term, Ashley helps guide council proceedings and address issues affecting Borough residents." },
         { lead: "Growing Family, Strong Community Roots", text: "Ashley and her husband, Ricky, are preparing to welcome their fifth child. Her professional and family life reflect her firsthand connection to the needs of families and the importance of a supportive community." }
       ]
