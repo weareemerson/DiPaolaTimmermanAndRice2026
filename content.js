@@ -107,7 +107,7 @@ window.SITE = {
       highlights: [
         { lead: "Proud Emerson Resident", text: "Mike has lived in Emerson for 14 years, raising his two children alongside his wife, Jessica, and building a life rooted in the community." },
         { lead: "Dedicated to Public Service", text: "Serving his second term on the Borough Council, Mike works on issues affecting municipal finances, taxation, land use, and local services." },
-        { lead: "A Coach and Mentor", text: "Mike’s commitment to Emerson extends beyond the Council. He coaches nine local sports teams each year, investing his time in the town’s youth and helping shape the next generation." }
+        { lead: "A Coach and Mentor", text: "Mike’s commitment to Emerson extends beyond the Council. He coaches eight local sports teams each year, investing his time in the town’s youth and helping shape the next generation." }
       ]
     },
     {
